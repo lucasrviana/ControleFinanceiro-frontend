@@ -8,7 +8,7 @@ export default props => (
             <input {...props.input} 
                     className='form-control' 
                     placeholder={props.placeholder}
-                    readOnly={prompt.readOnly} 
+                    readOnly={props.readOnly} 
                     type={props.type} 
                     />
         </div>
