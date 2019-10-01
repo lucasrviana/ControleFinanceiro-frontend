@@ -3,7 +3,7 @@ import Row from '../common/layout/row'
 import ContentHeader from '../common/template/contentheader'
 import Content from '../common/template/content'
 import Tabs from '../common/tab/Tabs'
-import TabsHeader from '../common/tab/TabsHeader'
+import TabsHeader from '../common/tab/TabHeader'
 import TabsContent from '../common/tab/TabsContent'
 import TabHeader from '../common/tab/TabHeader';
 import TabContent from '../common/tab/TabContent';

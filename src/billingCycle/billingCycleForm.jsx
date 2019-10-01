@@ -4,14 +4,14 @@ import { init } from './billingCycleAction'
 import labelAndInput from '../common/form/labelAndInput'
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux'
-import Grid from '../common/layout/grid'
-import Row from '../common/layout/row'
+// import Grid from '../common/layout/grid'
+// import Row from '../common/layout/row'
 class BillingCycleForm  extends Component{
 
     render(){
         const { handleSubmit, init ,readOnly } = this.props
         return(
-            <form role='form' onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} >
                 <div className='box-body'>
                     <Field name='name' 
                            component={labelAndInput} readOnly={readOnly}
