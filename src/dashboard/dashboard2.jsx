@@ -15,7 +15,6 @@ class DashBoard2 extends Component{
 
 
     componentWillMount(){
-
         Axios.get(`${URL}/BillingCicles/summary`)
              .then(resp => this.setState(resp.data))
     }
