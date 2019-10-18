@@ -36,7 +36,7 @@ class billingCyclesList extends Component {
     }
 
     render() {
-        const { list } = this.props
+        // const { list } = this.props
         //console.log(list)
         return (
             <Row>

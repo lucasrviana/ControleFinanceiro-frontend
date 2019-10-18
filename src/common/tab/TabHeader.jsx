@@ -13,12 +13,13 @@ class tabHeader extends Component {
 
             <If test={visible}>
                 <li className={selected ? 'active' : ''}>
-                    <a href='javascript:;'
+                    
+                    <div href="#"
                         data-toggle='tab'
                         onClick={() => this.props.selectTab(this.props.target)}
                         data-target={this.props.target}>
                         <i className={`fa fa-${this.props.icon}`}></i>{this.props.label}
-                    </a> {this.props.tab.selectTab}
+                    </div> {this.props.tab.selectTab}
                 </li>
             </If>
         )

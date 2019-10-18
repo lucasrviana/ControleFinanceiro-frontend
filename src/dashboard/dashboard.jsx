@@ -21,7 +21,7 @@ class DashBoard extends Component{
         const summary = this.props.summary
         return(
                 <Row>
-                    <If test={summary == undefined}>
+                    <If test={summary === undefined}>
                         <ContentHeader title='Dashbord' small='1.0' />
                         <Content>
                             <ValueBox cols='12 4' color='green' icon='bank' value={`R$ ${summary.credit}`}  text='Total de Créditos'/>
