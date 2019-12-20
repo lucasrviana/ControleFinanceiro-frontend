@@ -17,4 +17,5 @@ const store = applyMiddleware(promise, thunk, multi)(createStore)(reducers, devt
 ReactDOM.render(
         <Provider store={store} >
                 <AuthOrApp />
-        </Provider>, document.getElementById('app'))
+        </Provider>, document.getElementById('app')
+        )
